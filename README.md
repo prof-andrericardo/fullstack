@@ -45,7 +45,7 @@ Ele foi criado com o objetivo de **ensinar, passo a passo, a lógica do backend*
 git clone https://github.com/prof-andrericardo/fullstack.git
 
 # Acesse a pasta do projeto
-cd fullstack
+cd fullstack/backend
 
 # Instale as dependências
 npm install
