@@ -220,4 +220,4 @@ Chegamos à etapa final do CRUD!
 
 ------
 
-⬅️ [Capítulo 11.2 – PUT Lógica e Organização do Pensamento](<Capítulo 11.2 – PUT Lógica e Organização do Pensamento.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 12.1 – Entendendo o Método HTTP DELETE ➡️](<Capítulo 12.1 – Entendendo o Método HTTP DELETE.md>)
+⬅️ [Capítulo 11.2 – PUT Lógica e Organização do Pensamento](<Capítulo 11.2 – PUT Lógica e Organização do Pensamento.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 12.1 – Entendendo o Método HTTP DELETE ➡️](<Capítulo 12.1 – Entendendo o Método HTTP DELETE.md>)

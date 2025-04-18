@@ -155,4 +155,4 @@ Continue para: **[Capítulo 7 – Conceitos Fundamentais de HTTP](docs/<Capítul
 
 ---
 
-⬅️ [Capítulo 05 – Configurar o `app.js`](<Capítulo 05 – Configurar o `app.js`.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 07 – Conceitos Fundamentais de HTTP ➡️](<Capítulo 07 – Conceitos Fundamentais de HTTP.md>)
+⬅️ [Capítulo 05 – Configurar o `app.js`](<Capítulo 05 – Configurar o `app.js`.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 07 – Conceitos Fundamentais de HTTP ➡️](<Capítulo 07 – Conceitos Fundamentais de HTTP.md>)

@@ -525,4 +525,4 @@ Ao dominá-los, o aluno ganha segurança para entender, adaptar e escrever seus 
 
 ---
 
-[🏠 Voltar à Home](<README.md>) | [02- ➡️](<docs/<>)
+[🏠 Voltar à Home](<../README.md>) | [02- ➡️](<docs/<>)

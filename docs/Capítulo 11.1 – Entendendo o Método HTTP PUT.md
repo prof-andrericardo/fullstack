@@ -173,4 +173,4 @@ Agora que você entendeu o funcionamento do método `PUT`, vamos praticar a sua 
 
 ------
 
-⬅️ [Capítulo 11.1 – Entendendo o Método HTTP PUT](<Capítulo 11.1 – Entendendo o Método HTTP PUT.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 11.3 – Criando Endpoints PUT com Mocks ➡️](<Capítulo 11.2 – PUT Lógica e Organização do Pensamento.md>)
+⬅️ [Capítulo 11.1 – Entendendo o Método HTTP PUT](<Capítulo 11.1 – Entendendo o Método HTTP PUT.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 11.3 – Criando Endpoints PUT com Mocks ➡️](<Capítulo 11.2 – PUT Lógica e Organização do Pensamento.md>)

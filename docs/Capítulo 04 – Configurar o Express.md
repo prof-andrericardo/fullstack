@@ -206,4 +206,4 @@ Continue para: **[Capítulo 5 – Configurar o `app.js`](docs/<Capítulo 5 – C
 
 ------
 
-⬅️ [Capítulo 03 – Preparar o Ambiente](<Capítulo 03 – Preparar o Ambiente.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 05 – Configurar o `app.js` ➡️](<Capítulo 05 – Configurar o `app.js`.md>)
+⬅️ [Capítulo 03 – Preparar o Ambiente](<Capítulo 03 – Preparar o Ambiente.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 05 – Configurar o `app.js` ➡️](<Capítulo 05 – Configurar o `app.js`.md>)

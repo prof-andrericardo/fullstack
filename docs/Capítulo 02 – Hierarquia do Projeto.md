@@ -218,4 +218,4 @@ backend/
 
 ------
 
-⬅️ [Capítulo 01 – Introdução ao Projeto e à API RESTful](<Capítulo 01 – Introdução ao Projeto e à API RESTful.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 03 – Preparar o Ambiente ➡️](<Capítulo 03 – Preparar o Ambiente.md>)
+⬅️ [Capítulo 01 – Introdução ao Projeto e à API RESTful](<Capítulo 01 – Introdução ao Projeto e à API RESTful.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 03 – Preparar o Ambiente ➡️](<Capítulo 03 – Preparar o Ambiente.md>)

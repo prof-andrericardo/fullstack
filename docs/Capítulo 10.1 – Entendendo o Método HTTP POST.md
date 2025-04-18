@@ -175,4 +175,4 @@ Agora que você entendeu como funciona o método `POST`, vamos aprender a **cria
 
 ------
 
-⬅️ [Capítulo 09.3 – Criando Endpoints GET com Mocks](<Capítulo 09.3 – Criando Endpoints GET.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 10.2 – POST Lógica e Organização do Pensamento ➡️](<Capítulo 10.2 – POST Lógica e Organização do Pensamento.md>)
+⬅️ [Capítulo 09.3 – Criando Endpoints GET com Mocks](<Capítulo 09.3 – Criando Endpoints GET.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 10.2 – POST Lógica e Organização do Pensamento ➡️](<Capítulo 10.2 – POST Lógica e Organização do Pensamento.md>)

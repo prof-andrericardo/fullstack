@@ -235,4 +235,4 @@ Agora que você domina o método POST e sabe como criar recursos com segurança,
 
 ------
 
-⬅️ [Capítulo 10.2 – POST Lógica e Organização do Pensamento](<Capítulo 10.2 – POST Lógica e Organização do Pensamento.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 11.1 – Entendendo o Método HTTP PUT ➡️](<Capítulo 11.1 – Entendendo o Método HTTP PUT.md>)
+⬅️ [Capítulo 10.2 – POST Lógica e Organização do Pensamento](<Capítulo 10.2 – POST Lógica e Organização do Pensamento.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 11.1 – Entendendo o Método HTTP PUT ➡️](<Capítulo 11.1 – Entendendo o Método HTTP PUT.md>)

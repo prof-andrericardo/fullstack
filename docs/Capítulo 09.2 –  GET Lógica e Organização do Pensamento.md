@@ -150,4 +150,4 @@ Sem `GET`, o usuário não consegue ver **nada**.
 
 ---
 
-⬅️ [Capítulo 09.1 – Entendendo o Método HTTP GET](<Capítulo 09.1 – Entendendo o Método HTTP GET.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 09.3 – Criando Endpoints GET com Mocks ➡️](<Capítulo 09.3 – Criando Endpoints GET.md>)
+⬅️ [Capítulo 09.1 – Entendendo o Método HTTP GET](<Capítulo 09.1 – Entendendo o Método HTTP GET.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 09.3 – Criando Endpoints GET com Mocks ➡️](<Capítulo 09.3 – Criando Endpoints GET.md>)

@@ -286,4 +286,4 @@ Continue para: **[Capítulo 9.1 – Entendendo o Método HTTP GET](docs/<Capítu
 
 ------
 
-⬅️ [Capítulo 07 – Conceitos Fundamentais de HTTP](<Capítulo 07 – Conceitos Fundamentais de HTTP.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 09.0 – Explorando o Express e a Instância `app` ➡️](<Capítulo 09.0 – Explorando o Express e a Instância `app`.md>)
+⬅️ [Capítulo 07 – Conceitos Fundamentais de HTTP](<Capítulo 07 – Conceitos Fundamentais de HTTP.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 09.0 – Explorando o Express e a Instância `app` ➡️](<Capítulo 09.0 – Explorando o Express e a Instância `app`.md>)

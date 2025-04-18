@@ -165,4 +165,4 @@ Ele é parte essencial de qualquer sistema com formulários de edição ou atual
 
 ---
 
-⬅️ [Capítulo 11.1 – Entendendo o Método HTTP PUT](<Capítulo 11.1 – Entendendo o Método HTTP PUT.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 11.3 – Criando Endpoints PUT com Mocks ➡️](<Capítulo 11.3 – Criando Endpoints PUT com Mocks.md>)
+⬅️ [Capítulo 11.1 – Entendendo o Método HTTP PUT](<Capítulo 11.1 – Entendendo o Método HTTP PUT.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 11.3 – Criando Endpoints PUT com Mocks ➡️](<Capítulo 11.3 – Criando Endpoints PUT com Mocks.md>)

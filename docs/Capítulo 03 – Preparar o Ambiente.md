@@ -319,4 +319,4 @@ Continue para: **[Capítulo 4 – Configurar o Express](docs/<Capítulo 4 – Co
 
 ------
 
-⬅️ [Capítulo 02 – Hierarquia do Projeto](<Capítulo 02 – Hierarquia do Projeto.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 04 – Configurar o Express ➡️](<Capítulo 04 – Configurar o Express.md>)
+⬅️ [Capítulo 02 – Hierarquia do Projeto](<Capítulo 02 – Hierarquia do Projeto.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 04 – Configurar o Express ➡️](<Capítulo 04 – Configurar o Express.md>)

@@ -149,4 +149,4 @@ Agora que você **entende claramente o funcionamento do método GET**, no próxi
 
 ------
 
-⬅️ [Capítulo 09.0 – Explorando o Express e a Instância `app`](<Capítulo 09.0 – Explorando o Express e a Instância `app`.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 09.2 – GET Lógica e Organização do Pensamento ➡️](<Capítulo 09.2 –  GET Lógica e Organização do Pensamento.md>)
+⬅️ [Capítulo 09.0 – Explorando o Express e a Instância `app`](<Capítulo 09.0 – Explorando o Express e a Instância `app`.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 09.2 – GET Lógica e Organização do Pensamento ➡️](<Capítulo 09.2 –  GET Lógica e Organização do Pensamento.md>)

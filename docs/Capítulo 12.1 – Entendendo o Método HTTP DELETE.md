@@ -154,4 +154,4 @@ Agora que você compreende como funciona o método `DELETE`, no próximo capítu
 
 ------
 
-⬅️ [Capítulo 11.3 – Criando Endpoints PUT com Mocks](<Capítulo 11.3 – Criando Endpoints PUT com Mocks.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 12.2 – DELETE Lógica e Organização do Pensamento ➡️](<Capítulo 12.2 – DELETE Lógica e Organização do Pensamento.md>)
+⬅️ [Capítulo 11.3 – Criando Endpoints PUT com Mocks](<Capítulo 11.3 – Criando Endpoints PUT com Mocks.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 12.2 – DELETE Lógica e Organização do Pensamento ➡️](<Capítulo 12.2 – DELETE Lógica e Organização do Pensamento.md>)

@@ -158,4 +158,4 @@ Continue para: **[Capítulo 8 – Endpoints e Rotas](docs/<Capítulo 8 – Endpo
 
 ------
 
-⬅️ [Capítulo 06 – Fluxo de Trabalho com Mocks](<Capítulo 06 – Fluxo de Trabalho com Mocks.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 08 – Rotas e Endpoints ➡️](<Capítulo 08 – Rotas e Endpoints.md>)
+⬅️ [Capítulo 06 – Fluxo de Trabalho com Mocks](<Capítulo 06 – Fluxo de Trabalho com Mocks.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 08 – Rotas e Endpoints ➡️](<Capítulo 08 – Rotas e Endpoints.md>)

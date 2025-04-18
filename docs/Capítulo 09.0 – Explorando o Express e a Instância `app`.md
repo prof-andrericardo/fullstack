@@ -437,4 +437,4 @@ Agora que você entende a estrutura do Express e o papel da instância `app`, va
 
 ------
 
-⬅️ [Capítulo 08 – Rotas e Endpoints](<Capítulo 08 – Rotas e Endpoints.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 09.1 – Entendendo o Método HTTP GET ➡️](<Capítulo 09.1 – Entendendo o Método HTTP GET.md>)
+⬅️ [Capítulo 08 – Rotas e Endpoints](<Capítulo 08 – Rotas e Endpoints.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 09.1 – Entendendo o Método HTTP GET ➡️](<Capítulo 09.1 – Entendendo o Método HTTP GET.md>)

@@ -179,4 +179,4 @@ Continue para: **[Capítulo 6 – Fluxo de Trabalho e Mocks](docs/<Capítulo 6 �
 
 ------
 
-⬅️ [Capítulo 04 – Configurar o Express](<Capítulo 04 – Configurar o Express.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 06 – Fluxo de Trabalho com Mocks ➡️](<Capítulo 06 – Fluxo de Trabalho com Mocks.md>)
+⬅️ [Capítulo 04 – Configurar o Express](<Capítulo 04 – Configurar o Express.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 06 – Fluxo de Trabalho com Mocks ➡️](<Capítulo 06 – Fluxo de Trabalho com Mocks.md>)

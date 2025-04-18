@@ -296,4 +296,4 @@ Agora que você já sabe como criar endpoints `GET`, vamos avançar para o próx
 
 ------
 
-⬅️ [Capítulo 09.2 – GET Lógica e Organização do Pensamento](<Capítulo 09.2 –  GET Lógica e Organização do Pensamento.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 10.1 – Entendendo o Método HTTP POST ➡️](<Capítulo 10.1 – Entendendo o Método HTTP POST.md>)
+⬅️ [Capítulo 09.2 – GET Lógica e Organização do Pensamento](<Capítulo 09.2 –  GET Lógica e Organização do Pensamento.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 10.1 – Entendendo o Método HTTP POST ➡️](<Capítulo 10.1 – Entendendo o Método HTTP POST.md>)

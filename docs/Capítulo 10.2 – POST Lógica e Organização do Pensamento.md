@@ -162,4 +162,4 @@ Sem `POST`, o sistema **não pode crescer**.
 
 ---
 
-⬅️ [Capítulo 10.1 – Entendendo o Método HTTP POST](<Capítulo 10.1 – Entendendo o Método HTTP POST.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 10.3 – Criando Endpoints POST com Mocks ➡️](<Capítulo 10.3 – Criando Endpoints POST com Mocks.md>)
+⬅️ [Capítulo 10.1 – Entendendo o Método HTTP POST](<Capítulo 10.1 – Entendendo o Método HTTP POST.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 10.3 – Criando Endpoints POST com Mocks ➡️](<Capítulo 10.3 – Criando Endpoints POST com Mocks.md>)

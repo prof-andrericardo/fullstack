@@ -163,7 +163,7 @@ Parabéns! Agora você domina **todos os quatro métodos do CRUD** em uma API RE
 
 ------
 
-## 📘 12.2.8 – Próximo Capítulo
+## 📘 Próximo Capítulo
 
 Agora que o CRUD foi finalizado com sucesso usando mocks, no próximo capítulo iniciaremos a conexão da API com o banco de dados MySQL, substituindo os dados simulados por dados reais.
 
@@ -171,3 +171,4 @@ Agora que o CRUD foi finalizado com sucesso usando mocks, no próximo capítulo 
 
 ------
 
+⬅️ [Capítulo 12.2 – DELETE Lógica e Organização do Pensamento](<Capítulo 12.2 – DELETE Lógica e Organização do Pensamento.md>) | [🏠 Voltar à Home](../<../README.md>) 
