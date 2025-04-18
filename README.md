@@ -62,33 +62,34 @@ npm run dev
 
 ### 🔹 Etapas iniciais
 
-- [Capítulo 01 – Introdução ao Projeto e à API RESTful](./Capítulo%2001%20–%20Introdução%20ao%20Projeto%20e%20à%20API%20RESTful.md)
-- [Capítulo 02 – Hierarquia do Projeto](./Capítulo%2002%20–%20Hierarquia%20do%20Projeto.md)
-- [Capítulo 03 – Preparar o Ambiente](./Capítulo%2003%20–%20Preparar%20o%20Ambiente.md)
-- [Capítulo 04 – Configurar o Express](./Capítulo%2004%20–%20Configurar%20o%20Express.md)
-- [Capítulo 05 – Configurar o `app.js`](./Capítulo%2005%20–%20Configurar%20o%20%60app.js%60.md)
-- [Capítulo 06 – Fluxo de Trabalho com Mocks](./Capítulo%2006%20–%20Fluxo%20de%20Trabalho%20com%20Mocks.md)
-- [Capítulo 07 – Conceitos Fundamentais de HTTP](./Capítulo%2007%20–%20Conceitos%20Fundamentais%20de%20HTTP.md)
-- [Capítulo 08 – Rotas e Endpoints](./Capítulo%2008%20–%20Rotas%20e%20Endpoints.md)
+- [Capítulo 01 – Introdução ao Projeto e à API RESTful](<docs/Capítulo 01 – Introdução ao Projeto e à API RESTful.md>)
+- [Capítulo 02 – Hierarquia do Projeto](<docs/Capítulo 02 – Hierarquia do Projeto.md>)
+- [Capítulo 03 – Preparar o Ambiente](<docs/Capítulo 03 – Preparar o Ambiente.md>)
+- [Capítulo 04 – Configurar o Express](<docs/Capítulo 04 – Configurar o Express.md>)
+- [Capítulo 05 – Configurar o `app.js`](<docs/Capítulo 05 – Configurar o `app.js`.md>)
+- [Capítulo 06 – Fluxo de Trabalho com Mocks](<docs/Capítulo 06 – Fluxo de Trabalho com Mocks.md>)
+- [Capítulo 07 – Conceitos Fundamentais de HTTP](<docs/Capítulo 07 – Conceitos Fundamentais de HTTP.md>)
+- [Capítulo 08 – Rotas e Endpoints](<docs/Capítulo 08 – Rotas e Endpoints.md>)
 
 ### 🔹 Explorando a lógica do Express e CRUD
 
-- [Capítulo 09.0 – Explorando o Express e a Instância `app`](./Capítulo%2009.0%20–%20Explorando%20o%20Express%20e%20a%20Instância%20%60app%60.md)
-- [Capítulo 09.1 – Entendendo o Método HTTP GET](./Capítulo%2009.1%20–%20Entendendo%20o%20Método%20HTTP%20GET.md)
-- [Capítulo 09.2 – GET Lógica e Organização do Pensamento](./Capítulo%2009.2%20–%20%20GET%20Lógica%20e%20Organização%20do%20Pensamento.md)
-- [Capítulo 09.3 – Criando Endpoints GET com Mocks](./Capítulo%2009.3%20–%20Criando%20Endpoints%20GET.md)
+- [Capítulo 09.0 – Explorando o Express e a Instância `app`](<docs/Capítulo 09.0 – Explorando o Express e a Instância `app`.md>)
+- [Capítulo 09.1 – Entendendo o Método HTTP GET](<docs/Capítulo 09.1 – Entendendo o Método HTTP GET.md>)
+- [Capítulo 09.2 – GET Lógica e Organização do Pensamento](<docs/Capítulo 09.2 –  GET Lógica e Organização do Pensamento.md>)
+- [Capítulo 09.3 – Criando Endpoints GET com Mocks](<docs/Capítulo 09.3 – Criando Endpoints GET.md>)
 
-- [Capítulo 10.1 – Entendendo o Método HTTP POST](./Capítulo%2010.1%20–%20Entendendo%20o%20Método%20HTTP%20POST.md)
-- [Capítulo 10.2 – POST Lógica e Organização do Pensamento](./Capítulo%2010.2%20–%20POST%20Lógica%20e%20Organização%20do%20Pensamento.md)
-- [Capítulo 10.3 – Criando Endpoints POST com Mocks](./Capítulo%2010.3%20–%20Criando%20Endpoints%20POST%20com%20Mocks.md)
+- [Capítulo 10.1 – Entendendo o Método HTTP POST](<docs/Capítulo 10.1 – Entendendo o Método HTTP POST.md>)
+- [Capítulo 10.2 – POST Lógica e Organização do Pensamento](<docs/Capítulo 10.2 – POST Lógica e Organização do Pensamento.md>)
+- [Capítulo 10.3 – Criando Endpoints POST com Mocks](<docs/Capítulo 10.3 – Criando Endpoints POST com Mocks.md>)
 
-- [Capítulo 11.1 – Entendendo o Método HTTP PUT](./Capítulo%2011.1%20–%20Entendendo%20o%20Método%20HTTP%20PUT.md)
-- [Capítulo 11.2 – PUT Lógica e Organização do Pensamento](./Capítulo%2011.2%20–%20PUT%20Lógica%20e%20Organização%20do%20Pensamento.md)
-- [Capítulo 11.3 – Criando Endpoints PUT com Mocks](./Capítulo%2011.3%20–%20Criando%20Endpoints%20PUT%20com%20Mocks.md)
+- [Capítulo 11.1 – Entendendo o Método HTTP PUT](<docs/Capítulo 11.1 – Entendendo o Método HTTP PUT.md>)
+- [Capítulo 11.2 – PUT Lógica e Organização do Pensamento](<docs/Capítulo 11.2 – PUT Lógica e Organização do Pensamento.md>)
+- [Capítulo 11.3 – Criando Endpoints PUT com Mocks](<docs/Capítulo 11.3 – Criando Endpoints PUT com Mocks.md>)
 
-- [Capítulo 12.1 – Entendendo o Método HTTP DELETE](./Capítulo%2012.1%20–%20Entendendo%20o%20Método%20HTTP%20DELETE.md)
-- [Capítulo 12.2 – DELETE Lógica e Organização do Pensamento](./Capítulo%2012.2%20–%20DELETE%20Lógica%20e%20Organização%20do%20Pensamento.md)
-- [Capítulo 12.3 – Criando Endpoints DELETE com Mocks](./Capítulo%2012.3%20–%20Criando%20Endpoints%20DELETE%20com%20Mocks.md)
+- [Capítulo 12.1 – Entendendo o Método HTTP DELETE](<docs/Capítulo 12.1 – Entendendo o Método HTTP DELETE.md>)
+- [Capítulo 12.2 – DELETE Lógica e Organização do Pensamento](<docs/Capítulo 12.2 – DELETE Lógica e Organização do Pensamento.md>)
+- [Capítulo 12.3 – Criando Endpoints DELETE com Mocks](<docs/Capítulo 12.3 – Criando Endpoints DELETE com Mocks.md>)
+
 
 ---
 
