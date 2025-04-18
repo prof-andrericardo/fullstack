@@ -93,7 +93,7 @@ npm run dev
 
 ---
 
-### 📘 Guias Teóricos e Suporte ao Aluno
+### 📘 Guias Teóricos e Suporte
 
 - [Guia Detalhado de Estruturas e Conceitos JavaScript](<docs/01 - Guia Detalhado de Estruturas e Conceitos JavaScript.md>)
 
