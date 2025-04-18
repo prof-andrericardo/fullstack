@@ -12,6 +12,7 @@ O método `DELETE` é usado para **remover definitivamente** um item de um siste
 Esse tipo de requisição apaga um dado existente, baseado no ID.
 
 ### 📚 Exemplos práticos:
+
 - Apagar um usuário do sistema
 - Deletar uma tarefa finalizada
 - Remover um produto descontinuado
@@ -21,6 +22,7 @@ Esse tipo de requisição apaga um dado existente, baseado no ID.
 ## 🧠 12.2.2 O que esse endpoint precisa fazer?
 
 Vamos criar dois endpoints do tipo `DELETE`:
+
 1. Remover um usuário pelo seu ID
 2. Remover uma tarefa específica pelo ID
 
@@ -50,12 +52,12 @@ Vamos criar dois endpoints do tipo `DELETE`:
 
 ## ⚙️ 12.2.4 Por que usamos `DELETE`?
 
-| Método   | Quando usar                          |
-|----------|--------------------------------------|
+| Método   | Quando usar                                        |
+| -------- | -------------------------------------------------- |
 | `DELETE` | Quando precisamos **remover** algo permanentemente |
-| `PUT`    | Para atualizar dados existentes      |
-| `POST`   | Para criar novos registros           |
-| `GET`    | Para buscar dados                    |
+| `PUT`    | Para atualizar dados existentes                    |
+| `POST`   | Para criar novos registros                         |
+| `GET`    | Para buscar dados                                  |
 
 ---
 
@@ -74,10 +76,12 @@ Vamos criar dois endpoints do tipo `DELETE`:
 ```js
 app.delete('/usuarios/:id', (req, res) => {
   const id = parseInt(req.params.id);
-  const index = mockUsuarios.findIndex(u => u.id === id);
+  const index = mockUsuarios.findIndex((u) => u.id === id);
 
   if (index === -1) {
-    return res.status(404).json({ success: false, error: 'Usuário não encontrado' });
+    return res
+      .status(404)
+      .json({ success: false, error: 'Usuário não encontrado' });
   }
 
   mockUsuarios.splice(index, 1);
@@ -102,7 +106,7 @@ app.delete('/usuarios/:id', (req, res) => {
 
 ### ✅ Em caso de sucesso:
 
-- Apenas o status `204`  
+- Apenas o status `204`
 - **Nenhum conteúdo no corpo da resposta**
 
 ### ❌ Em caso de erro:
@@ -146,4 +150,4 @@ O `DELETE` permite que o usuário **gerencie seu conteúdo** e remova o que não
 
 ---
 
-⬅️ [Capítulo 12.1 – Entendendo o Método HTTP DELETE](<Capítulo 12.1 – Entendendo o Método HTTP DELETE.md>) | [🏠 Voltar à Home](../<../README.md>) | [Capítulo 12.3 – Criando Endpoints DELETE com Mocks ➡️](<Capítulo 12.3 – Criando Endpoints DELETE com Mocks.md>)
+⬅️ [Capítulo 12.1 – Entendendo o Método HTTP DELETE](<Capítulo 12.1 – Entendendo o Método HTTP DELETE.md>) | [🏠 Voltar à Home](../README.md) | [Capítulo 12.3 – Criando Endpoints DELETE com Mocks ➡️](<Capítulo 12.3 – Criando Endpoints DELETE com Mocks.md>)

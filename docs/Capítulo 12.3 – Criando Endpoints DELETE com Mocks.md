@@ -22,7 +22,7 @@ backend/
 ├── server.js
 ```
 
-------
+---
 
 ## 👤 12.2.2 – Endpoint: `DELETE /usuarios/:id`
 
@@ -34,13 +34,13 @@ O método `DELETE` é usado para **excluir permanentemente** um registro identif
 // Rota que remove um usuário pelo ID
 router.delete('/usuarios/:id', (req, res) => {
   const id = parseInt(req.params.id); // Captura o ID da URL
-  const index = mockUsuarios.findIndex(u => u.id === id); // Encontra o índice no array
+  const index = mockUsuarios.findIndex((u) => u.id === id); // Encontra o índice no array
 
   if (index === -1) {
     // Se não encontrar, responde com erro
     return res.status(404).json({
       success: false,
-      error: 'Usuário não encontrado!'
+      error: 'Usuário não encontrado!',
     });
   }
 
@@ -58,19 +58,19 @@ router.delete('/usuarios/:id', (req, res) => {
 - `splice()` remove o item do array com base na posição
 - `status(204)` indica sucesso na exclusão **sem retornar conteúdo**
 
-------
+---
 
 ### 🧪 Teste com Thunder Client
 
 - **URL**: `DELETE http://localhost:3000/usuarios/2`
 - **Esperado**:
   - Status: `204 No Content`
-  - Corpo: *nenhum*
+  - Corpo: _nenhum_
 - **Teste de erro**:
   - Repetir a requisição no mesmo ID
   - Status esperado: `404`
 
-------
+---
 
 ## 📋 12.2.3 – Endpoint: `DELETE /tarefas/:id`
 
@@ -82,12 +82,12 @@ Remove uma tarefa específica, caso exista.
 // Rota que remove uma tarefa pelo ID
 router.delete('/tarefas/:id', (req, res) => {
   const id = parseInt(req.params.id);
-  const index = mockTarefas.findIndex(t => t.id === id);
+  const index = mockTarefas.findIndex((t) => t.id === id);
 
   if (index === -1) {
     return res.status(404).json({
       success: false,
-      error: 'Tarefa não encontrada!'
+      error: 'Tarefa não encontrada!',
     });
   }
 
@@ -102,7 +102,7 @@ router.delete('/tarefas/:id', (req, res) => {
 - Processo idêntico ao anterior, mas aplicado ao array de tarefas
 - Reforça o uso correto do `204 No Content` para deletar com sucesso
 
-------
+---
 
 ### 🧪 Teste com Thunder Client
 
@@ -110,7 +110,7 @@ router.delete('/tarefas/:id', (req, res) => {
 - **Status esperado**: `204`
 - **Erro esperado**: tentar deletar o mesmo ID novamente → status `404`
 
-------
+---
 
 ## ✅ 12.2.4 – Boas práticas aplicadas
 
@@ -121,7 +121,7 @@ router.delete('/tarefas/:id', (req, res) => {
 | Retornar status `204`          | Segue o padrão REST de sucesso na exclusão            |
 | Não retornar corpo na resposta | Padrão recomendado pelo protocolo HTTP (`No Content`) |
 
-------
+---
 
 ## ⚠️ 12.2.5 – Erros comuns ao usar DELETE
 
@@ -131,7 +131,7 @@ router.delete('/tarefas/:id', (req, res) => {
 | Corpo de resposta retornado com `204` | Não necessário                        | Use apenas `res.status(204).end()` |
 | Apagar algo já removido               | ID não é mais encontrado              | Retornar `404 Not Found`           |
 
-------
+---
 
 ## 🧠 12.2.6 – Atividade Prática
 
@@ -148,7 +148,7 @@ router.delete('/tarefas/:id', (req, res) => {
    - Se houve ou não corpo na resposta
    - O que aconteceu no array (via `console.log()` no backend, se quiser)
 
-------
+---
 
 ## 📚 12.2.7 – Encerramento do CRUD com Mock
 
@@ -161,7 +161,7 @@ Parabéns! Agora você domina **todos os quatro métodos do CRUD** em uma API RE
 | `PUT`    | Atualizar   |
 | `DELETE` | Remover     |
 
-------
+---
 
 ## 📘 Próximo Capítulo
 
@@ -169,6 +169,6 @@ Agora que o CRUD foi finalizado com sucesso usando mocks, no próximo capítulo 
 
 ➡️ Continue para: **[Capítulo 13 – Conectando ao MySQL com `mysql2`](https://chatgpt.com/g/g-p-67e5b2a26c7c81918301ede108f78b6a-backend-nodejs/c/cap13-mysql-conexao.md)**
 
-------
+---
 
-⬅️ [Capítulo 12.2 – DELETE Lógica e Organização do Pensamento](<Capítulo 12.2 – DELETE Lógica e Organização do Pensamento.md>) | [🏠 Voltar à Home](../<../README.md>) 
+⬅️ [Capítulo 12.2 – DELETE Lógica e Organização do Pensamento](<Capítulo 12.2 – DELETE Lógica e Organização do Pensamento.md>) | [🏠 Voltar à Home](../README.md)

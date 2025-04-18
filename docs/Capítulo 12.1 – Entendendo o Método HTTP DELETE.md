@@ -17,12 +17,12 @@ Ele representa a ação de **Delete** no CRUD (Create, Read, Update, **Delete**)
 
 ## ✂️ 12.1.2 – Estrutura da Requisição `DELETE`
 
-| Elemento            | Descrição                                                    |
-| ------------------- | ------------------------------------------------------------ |
-| **Método**          | `DELETE`                                                     |
-| **URL**             | Deve conter o ID do recurso (ex: `/usuarios/3`)              |
+| Elemento            | Descrição                                                             |
+| ------------------- | --------------------------------------------------------------------- |
+| **Método**          | `DELETE`                                                              |
+| **URL**             | Deve conter o ID do recurso (ex: `/usuarios/3`)                       |
 | **Headers**         | Não requer `Content-Type`, pois **não há corpo** na maioria dos casos |
-| **Body (opcional)** | Em APIs REST simples, o `DELETE` **não precisa de body**     |
+| **Body (opcional)** | Em APIs REST simples, o `DELETE` **não precisa de body**              |
 
 ---
 
@@ -49,20 +49,20 @@ DELETE /usuarios/3
 ### Resposta esperada:
 
 - Status: `204 No Content`
-- Corpo: *nenhum* (resposta vazia)
+- Corpo: _nenhum_ (resposta vazia)
 
-------
+---
 
 ## 📋 12.1.5 – Diferença entre DELETE e outros métodos
 
-| Método   | Função    | Espera dados no body? | Tem corpo na resposta? |
-| -------- | --------- | --------------------- | ---------------------- |
-| `GET`    | Buscar    | ❌                     | ✅ Sim                  |
-| `POST`   | Criar     | ✅                     | ✅ Sim                  |
-| `PUT`    | Atualizar | ✅                     | ✅ Sim                  |
-| `DELETE` | Remover   | ❌ (em geral)          | ❌ (204 = sem conteúdo) |
+| Método   | Função    | Espera dados no body? | Tem corpo na resposta?  |
+| -------- | --------- | --------------------- | ----------------------- |
+| `GET`    | Buscar    | ❌                    | ✅ Sim                  |
+| `POST`   | Criar     | ✅                    | ✅ Sim                  |
+| `PUT`    | Atualizar | ✅                    | ✅ Sim                  |
+| `DELETE` | Remover   | ❌ (em geral)         | ❌ (204 = sem conteúdo) |
 
-------
+---
 
 ## 🔐 12.1.6 – Cuidados e Boas Práticas com `DELETE`
 
@@ -73,7 +73,7 @@ DELETE /usuarios/3
 | Retornar `404` se o ID não existir   | Fornece feedback útil ao cliente              |
 | Nunca incluir corpo na resposta 204  | Vai contra a especificação HTTP               |
 
-------
+---
 
 ## 🧠 12.1.7 – Situações reais que usam `DELETE`
 
@@ -84,7 +84,7 @@ DELETE /usuarios/3
 | Cancelar uma compra antes da confirmação       | `DELETE`     |
 | Remover uma mensagem de um chat (ex: WhatsApp) | `DELETE`     |
 
-------
+---
 
 ## 📈 12.1.8 – Diagrama do fluxo de uma requisição DELETE
 
@@ -101,7 +101,7 @@ sequenceDiagram
     Servidor-->>Cliente: HTTP 204 No Content (sem corpo)
 ```
 
-------
+---
 
 ## 🔍 12.1.9 – Reações esperadas ao testar
 
@@ -111,13 +111,13 @@ sequenceDiagram
 | ID inexistente                           | 404         | `{"error": "Não encontrado"}`      |
 | ID inválido (ex: texto em vez de número) | 404 ou 400  | Erro de validação, se implementado |
 
-------
+---
 
 ## 🧠 12.1.10 – Reflexão Didática
 
 > “Saber excluir é também uma responsabilidade. Uma API madura respeita o ciclo de vida da informação e garante que sua remoção seja feita com segurança, previsibilidade e clareza.”
 
-------
+---
 
 ## 📝 12.1.11 – Atividade de Fixação
 
@@ -152,6 +152,6 @@ Agora que você compreende como funciona o método `DELETE`, no próximo capítu
 
 ➡️ Continue para: **[Capítulo 12.2 – Criando Endpoints DELETE com Mocks](docs/<Capítulo 12.2 – DELETE Lógica e Organização do Pensamento.md>)**
 
-------
+---
 
-⬅️ [Capítulo 11.3 – Criando Endpoints PUT com Mocks](<Capítulo 11.3 – Criando Endpoints PUT com Mocks.md>) | [🏠 Voltar à Home](<../README.md>) | [Capítulo 12.2 – DELETE Lógica e Organização do Pensamento ➡️](<Capítulo 12.2 – DELETE Lógica e Organização do Pensamento.md>)
+⬅️ [Capítulo 11.3 – Criando Endpoints PUT com Mocks](<Capítulo 11.3 – Criando Endpoints PUT com Mocks.md>) | [🏠 Voltar à Home](../README.md) | [Capítulo 12.2 – DELETE Lógica e Organização do Pensamento ➡️](<Capítulo 12.2 – DELETE Lógica e Organização do Pensamento.md>)
