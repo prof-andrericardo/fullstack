@@ -1,4 +1,4 @@
-# 🧩 Projeto Educacional – Backend com Node.js e API RESTful
+# 🧩 Backend com Node.js e API RESTful
 
 ![Badge](https://img.shields.io/badge/educacional-node.js-blue)
 ![Badge](https://img.shields.io/badge/licença-MIT-green)
