@@ -265,15 +265,25 @@ Verifique no Thunder Client:
    - Excluir uma tarefa que já foi excluída
 4. Anote os status HTTP de cada operação e interprete as respostas JSON
 
-------
+---
 
-## 📚 8.9 – Próximo Capítulo
+## 📚 8.9 Referências Complementares
+
+- [Definindo rotas no Express – Documentação oficial](https://expressjs.com/pt-br/guide/routing.html)
+- [O que são rotas e endpoints – YouTube (Tiago Matos)](https://www.youtube.com/watch?v=LDx0-QJdQnM)
+- [Boas práticas em rotas REST – Dev.to](https://dev.to/telesdev/api-rest-com-boas-praticas-37dh)
+- [Rotas dinâmicas com Express – Medium](https://medium.com/@programador.cs/rotas-din%C3%A2micas-e-est%C3%A1ticas-com-node-js-e-express-4b539e9273f9)
+
+---
+
+## 📚 Próximo Capítulo
 
 ➡️ Agora que implementamos todos os endpoints principais do CRUD usando dados mockados, vamos dar um passo atrás e compreender melhor o funcionamento de cada **método HTTP** em APIs REST.
 
 No próximo capítulo, vamos estudar em profundidade o método `GET`, que é responsável pela **leitura de dados** em sistemas web.
 
-Continue para: **[Capítulo 9.1 – Entendendo o Método HTTP GET](Capítulo 9.1 – Entendendo o Método HTTP GET.md)**
+Continue para: **[Capítulo 9.1 – Entendendo o Método HTTP GET](docs/<Capítulo 9.1 – Entendendo o Método HTTP GET.md>)**
 
 ------
 
+⬅️ [Capítulo 07 – Conceitos Fundamentais de HTTP](<Capítulo 07 – Conceitos Fundamentais de HTTP.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 09.0 – Explorando o Express e a Instância `app` ➡️](<Capítulo 09.0 – Explorando o Express e a Instância `app`.md>)

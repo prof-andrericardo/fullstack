@@ -187,13 +187,23 @@ API Backend Ativa ✅
 
 5. Teste no navegador: `http://localhost:3000`
 
-------
+---
 
-## 📚 4.10 – Próximo Capítulo
+## 📚 4.10 Referências Complementares
+
+- [Documentação oficial do Express.js (pt-BR)](https://riptutorial.com/pt/node-js/topic/5067/express)
+- [Como instalar bibliotecas com npm – Alura](https://www.alura.com.br/artigos/o-que-e-npm)
+- [Criando servidor com Express – Matheus Battisti (YouTube)](https://www.youtube.com/watch?v=1hpc70_OoAg)
+- [Explicando o `package.json` – Dev.to](https://dev.to/lucasgdb/entendendo-o-packagejson-de-forma-simples-4j2j)
+
+---
+
+## 📚 Próximo Capítulo
 
 ➡️ Agora que o servidor está rodando com sucesso, vamos configurar os **Middlewares globais** e preparar o Express para lidar com **requisições JSON** no arquivo `app.js`.
 
-Continue para: **[Capítulo 5 – Configurar o `app.js`](Capítulo 5 – Configurar o `app.js`.md)**
+Continue para: **[Capítulo 5 – Configurar o `app.js`](docs/<Capítulo 5 – Configurar o `app.js`.md>)**
 
 ------
 
+⬅️ [Capítulo 03 – Preparar o Ambiente](<Capítulo 03 – Preparar o Ambiente.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 05 – Configurar o `app.js` ➡️](<Capítulo 05 – Configurar o `app.js`.md>)

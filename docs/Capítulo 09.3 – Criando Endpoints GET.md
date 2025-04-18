@@ -6,7 +6,7 @@
 
 ---
 
-## 🧱 9.2.1 – Preparação do ambiente
+## 🧱 9.3.1 – Preparação do ambiente
 
 Certifique-se de que os seguintes arquivos estão configurados corretamente:
 
@@ -64,7 +64,7 @@ export default [
 
 ------
 
-## 🔧 9.2.2 – Importando os mocks e criando o router
+## 🔧 9.3.2 – Importando os mocks e criando o router
 
 ### 📄 `src/routes/api.js`
 
@@ -82,7 +82,7 @@ const router = Router();
 
 ------
 
-## 🔗 9.2.3 – Conectando o router ao `app.js`
+## 🔗 9.3.3 – Conectando o router ao `app.js`
 
 ### 📄 `src/app.js`
 
@@ -108,7 +108,7 @@ export default app;
 
 ---
 
-## 👥 9.2.4 – Endpoint: `GET /usuarios`
+## 👥 9.3.4 – Endpoint: `GET /usuarios`
 
 Retorna a lista de todos os usuários.
 
@@ -144,7 +144,7 @@ router.get('/usuarios', (req, res) => {
 
 ------
 
-## 🔍 9.2.5 – Endpoint: `GET /usuarios/:id`
+## 🔍 9.3.5 – Endpoint: `GET /usuarios/:id`
 
 Retorna apenas o usuário com o `id` informado.
 
@@ -180,7 +180,7 @@ router.get('/usuarios/:id', (req, res) => {
 
 ------
 
-## 📋 9.2.6 – Endpoint: `GET /tarefas`
+## 📋 9.3.6 – Endpoint: `GET /tarefas`
 
 Retorna todas as tarefas da API.
 
@@ -196,7 +196,7 @@ router.get('/tarefas', (req, res) => {
 
 ------
 
-## 📌 9.2.7 – Endpoint: `GET /tarefas/:id`
+## 📌 9.3.7 – Endpoint: `GET /tarefas/:id`
 
 Busca uma tarefa específica e também retorna os dados do usuário dono da tarefa.
 
@@ -240,7 +240,7 @@ export default router;
 
 ------
 
-## 🧪 9.2.8 – Testando com Thunder Client
+## 🧪 9.3.8 – Testando com Thunder Client
 
 ### 📋 Endpoints para testar:
 
@@ -255,7 +255,7 @@ export default router;
 
 ------
 
-## ✅ 9.2.9 – Boas práticas aplicadas
+## ✅ 9.3.9 – Boas práticas aplicadas
 
 - ✔️ Sempre verificar se o item existe antes de retornar
 - ✔️ Utilizar `parseInt()` para converter `req.params.id`
@@ -264,7 +264,7 @@ export default router;
 
 ------
 
-## 🧠 9.2.9 – Atividade Prática
+## 🧠 9.3.10 – Atividade Prática
 
 > **Objetivo**: Consolidar o uso do método GET criando e testando seus próprios endpoints.
 
@@ -277,13 +277,23 @@ export default router;
    - `GET /tarefas/:id`
 3. Adicione um novo campo `telefone` nos usuários e retorne esse dado no GET
 
-------
+---
 
-## 📚 9.2.10 – Próximo Capítulo
+## 📚 9.3.11 Referências Complementares
+
+- [Express: Criando rotas GET – DevMedia](https://www.devmedia.com.br/express-node-js-criando-rotas/40485)
+- [API REST com mocks e JSON – YouTube (Programação Dinâmica)](https://www.youtube.com/watch?v=LUvUBqurjD4)
+- [Trabalhando com Express e dados simulados – Alura](https://www.alura.com.br/artigos/trabalhando-com-dados-node)
+- [Documentação Express: `res.json()`](https://expressjs.com/en/api.html#res.json)
+
+---
+
+## 📚 Próximo Capítulo
 
 Agora que você já sabe como criar endpoints `GET`, vamos avançar para o próximo verbo do CRUD:
 
-➡️ Continue para: **[Capítulo 10.1 – Entendendo o Método POST](https://chatgpt.com/g/g-p-67e5b2a26c7c81918301ede108f78b6a-backend-nodejs/c/cap10-1-post.md)**
+➡️ Continue para: **[Capítulo 10.1 – Entendendo o Método POST](docs/<Capítulo 10.1 – Entendendo o Método HTTP POST.md>)**
 
 ------
 
+⬅️ [Capítulo 09.2 – GET Lógica e Organização do Pensamento](<Capítulo 09.2 –  GET Lógica e Organização do Pensamento.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 10.1 – Entendendo o Método HTTP POST ➡️](<Capítulo 10.1 – Entendendo o Método HTTP POST.md>)

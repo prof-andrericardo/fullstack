@@ -6,7 +6,7 @@
 
 ---
 
-## 🧩 1. Qual é a função de um DELETE?
+## 🧩 12.2.1 Qual é a função de um DELETE?
 
 O método `DELETE` é usado para **remover definitivamente** um item de um sistema.  
 Esse tipo de requisição apaga um dado existente, baseado no ID.
@@ -18,7 +18,7 @@ Esse tipo de requisição apaga um dado existente, baseado no ID.
 
 ---
 
-## 🧠 2. O que esse endpoint precisa fazer?
+## 🧠 12.2.2 O que esse endpoint precisa fazer?
 
 Vamos criar dois endpoints do tipo `DELETE`:
 1. Remover um usuário pelo seu ID
@@ -26,7 +26,7 @@ Vamos criar dois endpoints do tipo `DELETE`:
 
 ---
 
-## 🔁 3. Qual é o fluxo lógico de um DELETE?
+## 🔁 12.2.3 Qual é o fluxo lógico de um DELETE?
 
 ### 📝 Para `DELETE /usuarios/:id`:
 
@@ -48,7 +48,7 @@ Vamos criar dois endpoints do tipo `DELETE`:
 
 ---
 
-## ⚙️ 4. Por que usamos `DELETE`?
+## ⚙️ 12.2.4 Por que usamos `DELETE`?
 
 | Método   | Quando usar                          |
 |----------|--------------------------------------|
@@ -59,7 +59,7 @@ Vamos criar dois endpoints do tipo `DELETE`:
 
 ---
 
-## 📋 5. O que precisamos validar?
+## 📋 12.2.5 O que precisamos validar?
 
 - Se o ID informado **existe**
 - Garantir que não estamos tentando excluir algo inexistente
@@ -67,7 +67,7 @@ Vamos criar dois endpoints do tipo `DELETE`:
 
 ---
 
-## 🧠 6. Entendendo a estrutura do `app.delete()`
+## 🧠 12.2.6 Entendendo a estrutura do `app.delete()`
 
 ### 📌 Sintaxe:
 
@@ -98,7 +98,7 @@ app.delete('/usuarios/:id', (req, res) => {
 
 ---
 
-## 📤 7. O que o sistema deve retornar?
+## 📤 12.2.7 O que o sistema deve retornar?
 
 ### ✅ Em caso de sucesso:
 
@@ -116,14 +116,14 @@ app.delete('/usuarios/:id', (req, res) => {
 
 ---
 
-## 📚 8. Como esse endpoint se encaixa no sistema?
+## 📚 12.2.8 Como esse endpoint se encaixa no sistema?
 
 A exclusão é fundamental para manter os dados do sistema **limpos e atualizados**.  
 O `DELETE` permite que o usuário **gerencie seu conteúdo** e remova o que não é mais necessário.
 
 ---
 
-## 📝 9. Antes de codar, pense:
+## 📝 12.2.9 Antes de codar, pense:
 
 1. Qual item será removido?
 2. Como ele será identificado?
@@ -134,3 +134,16 @@ O `DELETE` permite que o usuário **gerencie seu conteúdo** e remova o que não
 > 🧠 A lógica vem antes da tecla ENTER.
 
 ---
+
+---
+
+## 📚 12.2.10 Referências Complementares
+
+- [Planejamento lógico para exclusões seguras – Alura](https://cursos.alura.com.br/forum/topico-planejamento-para-deletes-125121)
+- [Boas práticas em exclusão lógica e física – Dev.to](https://dev.to/andrebnassi/remocao-fisica-vs-remocao-logica-em-apis-rest-47pp)
+- [findIndex e splice explicados – MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+- [Exclusão de itens com mocks – YouTube (Programação Dinâmica)](https://www.youtube.com/watch?v=LUvUBqurjD4)
+
+---
+
+⬅️ [Capítulo 12.1 – Entendendo o Método HTTP DELETE](<Capítulo 12.1 – Entendendo o Método HTTP DELETE.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 12.3 – Criando Endpoints DELETE com Mocks ➡️](<Capítulo 12.3 – Criando Endpoints DELETE com Mocks.md>)

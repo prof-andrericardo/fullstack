@@ -139,13 +139,23 @@ Vamos associar ações cotidianas com os métodos corretos:
 
 1. Compartilhem suas respostas com a turma. Vamos discutir os diferentes tipos de resposta e qual método seria mais adequado.
 
-------
+---
 
-## 📚 7.9 – Próximo Capítulo
+## 📚 7.9 Referências Complementares
+
+- [O que é HTTP? – Alura](https://www.alura.com.br/artigos/o-que-e-o-protocolo-http)
+- [Curso completo de HTTP – Curso em Vídeo](https://www.youtube.com/watch?v=iAKnBME5Fqo)
+- [HTTP status codes – Mozilla Developer Network (traduzido)](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)
+- [Verbos HTTP explicados – DevMedia](https://www.devmedia.com.br/o-que-e-http-e-https/41225)
+
+---
+
+## 📚 Próximo Capítulo
 
 ➡️ Agora que você conhece os **métodos HTTP**, o **significado dos códigos de status** e o **ciclo de uma requisição**, você está pronto para escrever seus **primeiros endpoints REST na prática!**
 
-Continue para: **[Capítulo 8 – Endpoints e Rotas](Capítulo 8 – Endpoints e Rotas.md)**
+Continue para: **[Capítulo 8 – Endpoints e Rotas](docs/<Capítulo 8 – Endpoints e Rotas.md>)**
 
 ------
 
+⬅️ [Capítulo 06 – Fluxo de Trabalho com Mocks](<Capítulo 06 – Fluxo de Trabalho com Mocks.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 08 – Rotas e Endpoints ➡️](<Capítulo 08 – Rotas e Endpoints.md>)

@@ -200,12 +200,22 @@ backend/
 1. Crie a estrutura acima
 2. Adicione ao menos um produto no `mockProdutos.js`
 
+---
+
+## 📚 2.10 Referências Complementares
+
+- [Boas práticas de organização de projetos Node.js – Rockseat](https://blog.rocketseat.com.br/estrutura-de-pastas-para-projetos-nodejs/)
+- [Como organizar a estrutura de uma API REST – Medium/Thiago Marinho](https://medium.com/@thiagolnr/como-organizar-uma-api-rest-com-node-js-8c00f7ef55a)
+- [Organizando projetos backend em camadas – Alura](https://www.alura.com.br/artigos/estrutura-backend-projeto-node)
+- [Padrões de arquitetura para APIs RESTful – DevMedia](https://www.devmedia.com.br/padroes-de-projeto-para-api-rest/37699)
+
 ------
 
 ## 📚 Próximo Capítulo
 
 ➡️ Vamos preparar o ambiente e instalar as dependências da API.
- Continue para: **[Capítulo 3 – Preparar o Ambiente](Capítulo 3 – Preparar o Ambiente.md)**
+ Continue para: **[Capítulo 3 – Preparar o Ambiente](docs/<Capítulo 3 – Preparar o Ambiente.md>)**
 
 ------
 
+⬅️ [Capítulo 01 – Introdução ao Projeto e à API RESTful](<Capítulo 01 – Introdução ao Projeto e à API RESTful.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 03 – Preparar o Ambiente ➡️](<Capítulo 03 – Preparar o Ambiente.md>)

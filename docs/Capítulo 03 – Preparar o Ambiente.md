@@ -300,13 +300,23 @@ Crie um projeto chamado `api-alunos` e configure seu ambiente seguindo os passos
 
 > 💡 **Dica bônus**: já inclua uma rota de teste no `server.js` para retornar um `Olá, mundo!`.
 
-------
+---
 
-## 📚 3.10 – Próximo Capítulo
+## 📚 3.10 Referências Complementares
+
+- [Instalando o Node.js – Node.js oficial (pt-BR)](https://nodejs.org/pt-br/download/)
+- [Como instalar o VS Code – Microsoft Docs (pt-BR)](https://code.visualstudio.com/docs/setup/setup-overview)
+- [Como instalar e configurar o Git – Digital Innovation One](https://web.dio.me/articles/instalando-e-configurando-o-git-no-windows)
+- [Terminal no VS Code – Alura](https://www.alura.com.br/artigos/terminal-integrado-vscode)
+
+---
+
+## 📚 Próximo Capítulo
 
 ➡️ No próximo capítulo, vamos **iniciar o servidor e configurar o Express no `server.js`**.
 
-Continue para: **[Capítulo 4 – Configurar o Express](Capítulo 4 – Configurar o Express.md)**
+Continue para: **[Capítulo 4 – Configurar o Express](docs/<Capítulo 4 – Configurar o Express.md>)**
 
 ------
 
+⬅️ [Capítulo 02 – Hierarquia do Projeto](<Capítulo 02 – Hierarquia do Projeto.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 04 – Configurar o Express ➡️](<Capítulo 04 – Configurar o Express.md>)

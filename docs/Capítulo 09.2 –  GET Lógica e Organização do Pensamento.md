@@ -4,7 +4,7 @@
 
 ---
 
-## 🧩 1. Qual é a função de um GET?
+## 🧩 9.2.1. Qual é a função de um GET?
 
 O método `GET` é utilizado quando precisamos **consultar ou buscar informações** em um sistema.  
 Ele **não altera nada**, apenas **lê dados** existentes.
@@ -16,7 +16,7 @@ Ele **não altera nada**, apenas **lê dados** existentes.
 
 ---
 
-## 🧠 2. O que esse endpoint precisa fazer?
+## 🧠 9.2.2. O que esse endpoint precisa fazer?
 
 Vamos criar dois endpoints do tipo `GET`:
 1. Listar todos os usuários
@@ -24,7 +24,7 @@ Vamos criar dois endpoints do tipo `GET`:
 
 ---
 
-## 🔁 3. Qual é o fluxo lógico de um GET?
+## 🔁 9.2.3. Qual é o fluxo lógico de um GET?
 
 ### 📝 Para `GET /usuarios` (listar todos):
 
@@ -45,7 +45,7 @@ Vamos criar dois endpoints do tipo `GET`:
 
 ---
 
-## 🛠️ 4. Por que usamos `GET` e não outro método?
+## 🛠️ 9.2.4. Por que usamos `GET` e não outro método?
 
 | Método  | Quando usar                        |
 |---------|------------------------------------|
@@ -58,7 +58,7 @@ Vamos criar dois endpoints do tipo `GET`:
 
 ---
 
-## 📋 5. O que precisamos validar?
+## 📋 9.2.5. O que precisamos validar?
 
 ### No `GET /usuarios`:
 - Nenhuma validação: apenas retornar tudo
@@ -70,7 +70,7 @@ Vamos criar dois endpoints do tipo `GET`:
 
 ---
 
-## 📤 6. O que o sistema deve retornar?
+## 📤 9.2.6. O que o sistema deve retornar?
 
 ### ✅ Em caso de sucesso:
 
@@ -96,7 +96,7 @@ Vamos criar dois endpoints do tipo `GET`:
 
 ---
 
-## 🔍 7. Analisando a estrutura do `app.get()`
+## 🔍 9.2.7. Analisando a estrutura do `app.get()`
 
 ### 📌 Sintaxe:
 
@@ -121,7 +121,7 @@ app.get('/usuarios', (req, res) => {
 
 ---
 
-## 🧠 8. Como esse endpoint se encaixa no sistema?
+## 🧠 9.2.8. Como esse endpoint se encaixa no sistema?
 
 Todo sistema precisa **mostrar dados**.  
 O `GET` é o que conecta o **frontend** (quem usa o sistema) ao **backend** (quem guarda os dados).  
@@ -140,3 +140,14 @@ Sem `GET`, o usuário não consegue ver **nada**.
 > 👨‍💻 **Quando você sabe o que está fazendo, o código vem naturalmente depois.**
 
 ---
+
+## 📚 9.2.9 Referências Complementares
+
+- [Pensando antes de codar – Lógica com Node.js (YouTube)](https://www.youtube.com/watch?v=O0lgK5QoHlg)
+- [Fluxo de requisição e resposta – Blog Rocketseat](https://blog.rocketseat.com.br/fluxo-de-requisicoes-no-nodejs/)
+- [Como planejar um endpoint REST – Dev.to](https://dev.to/ruanmartinelli/planeje-suas-rotas-rest-com-express-1fa2)
+- [Requisição GET passo a passo – Alura](https://cursos.alura.com.br/forum/topico-requisicao-get-passo-a-passo-124998)
+
+---
+
+⬅️ [Capítulo 09.1 – Entendendo o Método HTTP GET](<Capítulo 09.1 – Entendendo o Método HTTP GET.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 09.3 – Criando Endpoints GET com Mocks ➡️](<Capítulo 09.3 – Criando Endpoints GET.md>)

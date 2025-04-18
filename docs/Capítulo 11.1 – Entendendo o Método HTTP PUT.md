@@ -154,13 +154,23 @@ Complete a tabela a seguir com base em diferentes situações de atualização.
 | Corrigir o nome de um usuário              |                   |                      |                 |
 | Atualizar o usuário vinculado a uma tarefa |                   |                      |                 |
 
-------
+---
 
-## 📚 11.1.12 – Próximo Capítulo
+## 📚 11.1.12 Referências Complementares
+
+- [Pensando a lógica antes de atualizar registros – Alura](https://cursos.alura.com.br/forum/topico-put-patch-e-delete-125001)
+- [Atualizações seguras em APIs RESTful – Medium](https://medium.com/@oieduardorabelo/boas-pr%C3%A1ticas-em-apis-rest-5e0bdc56c7f8)
+- [Como planejar uma atualização completa de recurso – Dev.to](https://dev.to/ruanmartinelli/planeje-suas-rotas-rest-com-express-1fa2)
+- [Usando `findIndex` para localizar objetos – MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
+
+---
+
+## 📚 Próximo Capítulo
 
 Agora que você entendeu o funcionamento do método `PUT`, vamos praticar a sua aplicação com dados mockados.
 
-➡️ Continue para: **[Capítulo 11.2 – Criando Endpoints PUT com Mocks](https://chatgpt.com/g/g-p-67e5b2a26c7c81918301ede108f78b6a-backend-nodejs/c/cap11-2-criando-put.md)**
+➡️ Continue para: **[Capítulo 11.2 – Criando Endpoints PUT com Mocks](docs/<Capítulo 11.2 – PUT Lógica e Organização do Pensamento.md>)**
 
 ------
 
+⬅️ [Capítulo 11.1 – Entendendo o Método HTTP PUT](<Capítulo 11.1 – Entendendo o Método HTTP PUT.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 11.3 – Criando Endpoints PUT com Mocks ➡️](<Capítulo 11.2 – PUT Lógica e Organização do Pensamento.md>)

@@ -156,13 +156,23 @@ Analise as situações abaixo e preencha a tabela:
 | Criar nova tarefa para um usuário     | título, usuario_id     | Ver se o usuário existe         | `201` ou `404`  |
 | Criar produto com campo "preço" vazio | nome, descrição, preço | Validar se preço é numérico     | `400`           |
 
-------
+---
 
-## 📚 10.1.12 – Próximo Capítulo
+## 📚 10.1.12 Referências Complementares
+
+- [Verbo POST explicado – Alura](https://www.alura.com.br/artigos/o-que-e-o-protocolo-http)
+- [Método POST em APIs REST – DevMedia](https://www.devmedia.com.br/rest-com-metodo-post/29863)
+- [Enviando dados com POST – Curso em Vídeo](https://www.youtube.com/watch?v=iAKnBME5Fqo&t=489s)
+- [Requisições POST com Node/Express – YouTube (Tiago Matos)](https://www.youtube.com/watch?v=bklc2dc7s0c)
+
+---
+
+## 📚 Próximo Capítulo
 
 Agora que você entendeu como funciona o método `POST`, vamos aprender a **criar os endpoints reais de criação de usuários e tarefas**, utilizando os dados mockados e validando as entradas.
 
-➡️ Continue para: **[Capítulo 10.2 – Criando Endpoints POST com Mocks](https://chatgpt.com/g/g-p-67e5b2a26c7c81918301ede108f78b6a-backend-nodejs/c/cap10-2-criando-post.md)**
+➡️ Continue para: **[Capítulo 10.2 – Criando Endpoints POST com Mocks](docs/<Capítulo 10.2 – POST Lógica e Organização do Pensamento.md>)**
 
 ------
 
+⬅️ [Capítulo 09.3 – Criando Endpoints GET com Mocks](<Capítulo 09.3 – Criando Endpoints GET.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 10.2 – POST Lógica e Organização do Pensamento ➡️](<Capítulo 10.2 – POST Lógica e Organização do Pensamento.md>)

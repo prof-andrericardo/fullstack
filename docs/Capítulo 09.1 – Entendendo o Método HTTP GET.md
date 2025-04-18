@@ -132,7 +132,16 @@ Você está desenvolvendo uma API para uma biblioteca online. Sua tarefa é orga
 
 ------
 
-## 🚀 9.1.9 – Preparando para o Código
+## 📚 9.1.9 Referências Complementares
+
+- [Verbo GET no HTTP – Alura](https://www.alura.com.br/artigos/o-que-e-o-protocolo-http)
+- [Métodos HTTP – Mozilla Developer Network](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods)
+- [Explicando métodos HTTP – Curso em Vídeo](https://www.youtube.com/watch?v=iAKnBME5Fqo&t=489s)
+- [GET com Express – W3Schools](https://www.w3schools.com/nodejs/nodejs_http.asp)
+
+---
+
+## 🚀 9.1.10 – Preparando para o Código
 
 Agora que você **entende claramente o funcionamento do método GET**, no próximo capítulo vamos **colocar isso em prática**: criaremos rotas para retornar **todos os usuários, uma tarefa específica e mais**, usando mocks como fonte de dados.
 
@@ -140,3 +149,4 @@ Agora que você **entende claramente o funcionamento do método GET**, no próxi
 
 ------
 
+⬅️ [Capítulo 09.0 – Explorando o Express e a Instância `app`](<Capítulo 09.0 – Explorando o Express e a Instância `app`.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 09.2 – GET Lógica e Organização do Pensamento ➡️](<Capítulo 09.2 –  GET Lógica e Organização do Pensamento.md>)

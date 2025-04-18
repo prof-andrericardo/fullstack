@@ -5,7 +5,7 @@
 
 ---
 
-## 🔍 1. O que é uma API?
+## 🔍 1.1 O que é uma API?
 
 **API** significa **Interface de Programação de Aplicações** (do inglês *Application Programming Interface*).  
 Na prática, é um **meio de comunicação entre dois sistemas**, como um aplicativo e um servidor.
@@ -21,7 +21,7 @@ Na prática, é um **meio de comunicação entre dois sistemas**, como um aplica
 
 ---
 
-## 🔄 2. O que é uma API RESTful?
+## 🔄 1.2 O que é uma API RESTful?
 
 Uma **API RESTful** segue um conjunto de regras chamado **REST (Representational State Transfer)**.
 
@@ -60,7 +60,7 @@ O que acontece:
 
 ---
 
-## 🧰 3. O que vamos construir neste projeto?
+## 🧰 1.3 O que vamos construir neste projeto?
 
 Você vai desenvolver uma API RESTful completa para gerenciar uma **lista de tarefas (To-Do List)**.  
 Ela será capaz de:
@@ -74,7 +74,7 @@ Ela será capaz de:
 
 ---
 
-## 🧱 4. Tecnologias utilizadas
+## 🧱 1.4 Tecnologias utilizadas
 
 | Tecnologia     | Finalidade                                               |
 |----------------|-----------------------------------------------------------|
@@ -87,7 +87,7 @@ Ela será capaz de:
 
 ---
 
-## 🧭 5. Organização do curso
+## 🧭 1.5 Organização do curso
 
 O projeto está dividido em **capítulos numerados**, cada um focando em:
 
@@ -103,7 +103,7 @@ Exemplo de sequência:
 
 ---
 
-## 👨‍🎓 6. Perfil e pré-requisitos
+## 👨‍🎓 1.6 Perfil e pré-requisitos
 
 Este tutorial foi desenvolvido para alunos que:
 
@@ -117,7 +117,7 @@ Todos os passos são detalhados e acompanhados de explicações acessíveis.
 
 ---
 
-## 📚 7. Mini glossário introdutório
+## 📚 1.7 Mini glossário introdutório
 
 | Termo            | Significado                                                        |
 |------------------|--------------------------------------------------------------------|
@@ -132,7 +132,7 @@ Todos os passos são detalhados e acompanhados de explicações acessíveis.
 
 ---
 
-## 💬 8. Por que aprender Backend com Node.js?
+## 💬 1.8 Por que aprender Backend com Node.js?
 
 - Porque JavaScript já é conhecido pela maioria dos alunos
 - Porque Node.js é moderno, leve e usado no mercado
@@ -141,7 +141,18 @@ Todos os passos são detalhados e acompanhados de explicações acessíveis.
 
 ---
 
-## 🚀 9. Vamos começar?
+## 📚 1.9 Referências Complementares
+
+- [O que é uma API – Programação Dinâmica (YouTube)](https://www.youtube.com/watch?v=vGuqKIRWosk)
+- [Entendendo REST – Curso em Vídeo](https://www.youtube.com/watch?v=ghTrp1x_1As)
+- [Documentação oficial do Node.js (pt-BR)](https://nodejs.org/pt-br/docs/)
+- [Documentação oficial do Express (traduzido)](https://riptutorial.com/pt/node-js)
+- [Artigo: Diferença entre API, REST e RESTful – DevMedia](https://www.devmedia.com.br/entendendo-as-diferencas-entre-api-rest-e-restful/37684)
+- [Guia rápido de HTTP para iniciantes – Alura](https://www.alura.com.br/artigos/o-que-e-o-protocolo-http)
+
+---
+
+## 🚀 Vamos começar?
 
 A partir do Capítulo 2, iniciaremos a estruturação do projeto passo a passo.  
 Você poderá:
@@ -154,3 +165,5 @@ Você poderá:
 > 👨‍💻 Este tutorial vai transformar você em um desenvolvedor backend iniciante com base sólida.
 
 ---
+
+⬅️ [ ]() | [🏠 Voltar à Home](<README.md>) | [Capítulo 02 – Hierarquia do Projeto ➡️](<Capítulo 02 – Hierarquia do Projeto.md>)

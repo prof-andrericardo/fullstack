@@ -6,7 +6,7 @@
 
 ---
 
-## 🧩 1. Qual é a função de um PUT?
+## 🧩 11.2.1. Qual é a função de um PUT?
 
 O método `PUT` é usado para **atualizar completamente** um recurso já existente.  
 Isso significa que você envia **uma nova versão do recurso**, com os campos atualizados.
@@ -18,7 +18,7 @@ Isso significa que você envia **uma nova versão do recurso**, com os campos at
 
 ---
 
-## 🧠 2. O que esse endpoint precisa fazer?
+## 🧠 11.2.2. O que esse endpoint precisa fazer?
 
 Vamos criar dois endpoints do tipo `PUT`:
 1. Atualizar os dados de um usuário existente
@@ -26,7 +26,7 @@ Vamos criar dois endpoints do tipo `PUT`:
 
 ---
 
-## 🔁 3. Qual é o fluxo lógico de um PUT?
+## 🔁 11.2.3. Qual é o fluxo lógico de um PUT?
 
 ### 📝 Para `PUT /usuarios/:id`:
 
@@ -49,7 +49,7 @@ Vamos criar dois endpoints do tipo `PUT`:
 
 ---
 
-## ⚙️ 4. Por que usamos `PUT`?
+## ⚙️ 11.2.4. Por que usamos `PUT`?
 
 | Método  | Quando usar                          |
 |---------|--------------------------------------|
@@ -61,7 +61,7 @@ Vamos criar dois endpoints do tipo `PUT`:
 
 ---
 
-## 📋 5. O que precisamos validar?
+## 📋 11.2.5. O que precisamos validar?
 
 - Se o ID informado **existe**
 - Se o novo `usuario_id` (se for alterado) é válido
@@ -70,7 +70,7 @@ Vamos criar dois endpoints do tipo `PUT`:
 
 ---
 
-## 🧠 6. Entendendo a estrutura do `app.put()`
+## 🧠 11.2.6. Entendendo a estrutura do `app.put()`
 
 ### 📌 Sintaxe:
 
@@ -109,7 +109,7 @@ app.put('/usuarios/:id', (req, res) => {
 
 ---
 
-## 📤 7. O que o sistema deve retornar?
+## 📤 11.2.7. O que o sistema deve retornar?
 
 ### ✅ Em caso de sucesso:
 
@@ -135,7 +135,7 @@ app.put('/usuarios/:id', (req, res) => {
 
 ---
 
-## 📚 8. Como esse endpoint se encaixa no sistema?
+## 📚 11.2.8. Como esse endpoint se encaixa no sistema?
 
 Toda aplicação permite ao usuário **alterar algo que já existe**.  
 O `PUT` dá poder ao cliente de manter os dados atualizados e corrigir informações.  
@@ -143,7 +143,7 @@ Ele é parte essencial de qualquer sistema com formulários de edição ou atual
 
 ---
 
-## 📝 9. Antes de codar, pense:
+## 📝 11.2.9. Antes de codar, pense:
 
 1. Qual item desejo atualizar?
 2. O ID foi enviado corretamente?
@@ -155,3 +155,14 @@ Ele é parte essencial de qualquer sistema com formulários de edição ou atual
 > 🧠 Pensar antes de codar evita bugs e aumenta a confiança no seu código!
 
 ---
+
+## 📚 11.2.10 Referências Complementares
+
+- [Pensando a lógica antes de atualizar registros – Alura](https://cursos.alura.com.br/forum/topico-put-patch-e-delete-125001)
+- [Atualizações seguras em APIs RESTful – Medium](https://medium.com/@oieduardorabelo/boas-pr%C3%A1ticas-em-apis-rest-5e0bdc56c7f8)
+- [Como planejar uma atualização completa de recurso – Dev.to](https://dev.to/ruanmartinelli/planeje-suas-rotas-rest-com-express-1fa2)
+- [Usando `findIndex` para localizar objetos – MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
+
+---
+
+⬅️ [Capítulo 11.1 – Entendendo o Método HTTP PUT](<Capítulo 11.1 – Entendendo o Método HTTP PUT.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 11.3 – Criando Endpoints PUT com Mocks ➡️](<Capítulo 11.3 – Criando Endpoints PUT com Mocks.md>)

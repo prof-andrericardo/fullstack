@@ -4,7 +4,7 @@
 
 ---
 
-## 📩 1. Qual é a função de um POST?
+## 📩 10.2.1. Qual é a função de um POST?
 
 O método `POST` é utilizado para **criar um novo recurso** no sistema.  
 Ele é o responsável por **adicionar dados** ao backend (em mocks ou banco de dados).
@@ -16,7 +16,7 @@ Ele é o responsável por **adicionar dados** ao backend (em mocks ou banco de d
 
 ---
 
-## 🧠 2. O que esse endpoint precisa fazer?
+## 🧠 10.2.2. O que esse endpoint precisa fazer?
 
 Vamos criar dois endpoints do tipo `POST`:
 1. Criar um novo usuário
@@ -24,7 +24,7 @@ Vamos criar dois endpoints do tipo `POST`:
 
 ---
 
-## 🔁 3. Qual é o fluxo lógico de um POST?
+## 🔁 10.2.3. Qual é o fluxo lógico de um POST?
 
 ### 📝 Para `POST /usuarios`:
 
@@ -48,7 +48,7 @@ Vamos criar dois endpoints do tipo `POST`:
 
 ---
 
-## ⚙️ 4. Por que usamos `POST`?
+## ⚙️ 10.2.4. Por que usamos `POST`?
 
 | Método  | Quando usar                        |
 |---------|------------------------------------|
@@ -59,7 +59,7 @@ Vamos criar dois endpoints do tipo `POST`:
 
 ---
 
-## 📋 5. O que precisamos validar?
+## 📋 10.2.5. O que precisamos validar?
 
 - Se os campos obrigatórios foram enviados (`nome`, `email`, `titulo`, `usuario_id`)
 - Se o `usuario_id` enviado na tarefa existe de fato
@@ -67,7 +67,7 @@ Vamos criar dois endpoints do tipo `POST`:
 
 ---
 
-## 🧠 6. Entendendo a estrutura do `app.post()`
+## 🧠 10.2.6. Entendendo a estrutura do `app.post()`
 
 ### 📌 Sintaxe:
 
@@ -106,7 +106,7 @@ app.post('/usuarios', (req, res) => {
 
 ---
 
-## 📤 7. O que o sistema deve retornar?
+## 📤 10.2.7. O que o sistema deve retornar?
 
 ### ✅ Em caso de sucesso:
 
@@ -132,7 +132,7 @@ app.post('/usuarios', (req, res) => {
 
 ---
 
-## 📚 8. Como esse endpoint se encaixa no sistema?
+## 📚 10.2.8. Como esse endpoint se encaixa no sistema?
 
 Sem `POST`, o sistema **não pode crescer**.  
 É por ele que os dados entram na aplicação: cadastros, formulários, uploads…  
@@ -140,7 +140,7 @@ Sem `POST`, o sistema **não pode crescer**.
 
 ---
 
-## 📝 9. Antes de codar, pense:
+## 📝 10.2.9. Antes de codar, pense:
 
 1. O que preciso criar?
 2. Quais campos são obrigatórios?
@@ -152,3 +152,14 @@ Sem `POST`, o sistema **não pode crescer**.
 > 👨‍💻 Quando você domina a lógica do POST, está preparado para qualquer cadastro!
 
 ---
+
+## 📚 10.2.10 Referências Complementares
+
+- [Planejando endpoints POST – Medium](https://medium.com/@lucasfeliciano/api-rest-planejando-endpoints-eficientes-df19ecfc9b4)
+- [Como organizar o corpo (body) da requisição – Alura](https://www.alura.com.br/artigos/body-parser-express)
+- [Pensando o fluxo de criação – Dev.to](https://dev.to/ruanmartinelli/planeje-suas-rotas-rest-com-express-1fa2)
+- [Função push em arrays – MDN Docs (pt-BR)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+
+---
+
+⬅️ [Capítulo 10.1 – Entendendo o Método HTTP POST](<Capítulo 10.1 – Entendendo o Método HTTP POST.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 10.3 – Criando Endpoints POST com Mocks ➡️](<Capítulo 10.3 – Criando Endpoints POST com Mocks.md>)

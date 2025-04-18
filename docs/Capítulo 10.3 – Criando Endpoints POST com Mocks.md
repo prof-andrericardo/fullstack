@@ -1,4 +1,4 @@
-# 🧪 Capítulo 10.2 – Criando Endpoints POST com Mocks
+# 🧪 Capítulo 10.3 – Criando Endpoints POST com Mocks
 
 > 🎯 **Objetivo**: Implementar endpoints `POST` para criar novos usuários e tarefas utilizando dados mockados. Este capítulo aplica os conceitos abordados no Capítulo 10.1 de forma prática e detalhada.
 >
@@ -6,7 +6,7 @@
 
 ---
 
-## 📦 10.2.1 – Estrutura esperada dos arquivos
+## 📦 10.3.1 – Estrutura esperada dos arquivos
 
 Antes de começar, verifique se os seguintes arquivos estão organizados corretamente:
 
@@ -24,7 +24,7 @@ backend/
 
 ------
 
-## 👤 10.2.2 – Endpoint: `POST /usuarios`
+## 👤 10.3.2 – Endpoint: `POST /usuarios`
 
 Este endpoint cria um novo usuário e adiciona no array `mockUsuarios`.
 
@@ -97,7 +97,7 @@ router.post('/usuarios', (req, res) => {
 
 ------
 
-## 📋 10.2.3 – Endpoint: `POST /tarefas`
+## 📋 10.3.3 – Endpoint: `POST /tarefas`
 
 Cria uma nova tarefa vinculada a um usuário já existente.
 
@@ -181,7 +181,7 @@ router.post('/tarefas', (req, res) => {
 
 ------
 
-## ⚠️ 10.2.4 – Casos de erro importantes
+## ⚠️ 10.3.4 – Casos de erro importantes
 
 | Cenário                         | Status esperado | Mensagem de erro                        |
 | ------------------------------- | --------------- | --------------------------------------- |
@@ -191,7 +191,7 @@ router.post('/tarefas', (req, res) => {
 
 ------
 
-## 📘 10.2.5 – Boas práticas aplicadas
+## 📘 10.3.5 – Boas práticas aplicadas
 
 | Boas práticas observadas                 | Justificativa                              |
 | ---------------------------------------- | ------------------------------------------ |
@@ -203,7 +203,7 @@ router.post('/tarefas', (req, res) => {
 
 ------
 
-## 🧠 10.2.6 – Atividade Prática
+## 🧠 10.3.6 – Atividade Prática
 
 > **Objetivo**: Praticar a criação de dados via `POST` e refletir sobre o retorno da API.
 
@@ -216,13 +216,23 @@ router.post('/tarefas', (req, res) => {
    - Tente criar uma tarefa sem `titulo`
 4. Anote os **status HTTP retornados** e a **mensagem de resposta** em cada caso
 
-------
+---
 
-## 📚 10.2.7 – Próximo Capítulo
+## 📚 Referências Complementares
+
+- [Criando rotas POST com Express – W3Schools](https://www.w3schools.com/nodejs/nodejs_mysql_create_db.asp)
+- [Tratando dados do `req.body` – Alura](https://www.alura.com.br/artigos/body-parser-express)
+- [Exemplo prático de POST em APIs REST – YouTube (Programação Dinâmica)](https://www.youtube.com/watch?v=LUvUBqurjD4)
+- [Validando campos obrigatórios com Express](https://express-validator.github.io/docs/)
+
+---
+
+## 📚 Próximo Capítulo
 
 Agora que você domina o método POST e sabe como criar recursos com segurança, vamos seguir para a **atualização de dados**, utilizando o método `PUT`.
 
-➡️ Continue para: **[Capítulo 11.1 – Entendendo o Método PUT](https://chatgpt.com/g/g-p-67e5b2a26c7c81918301ede108f78b6a-backend-nodejs/c/cap11-1-put.md)**
+➡️ Continue para: **[Capítulo 11.1 – Entendendo o Método PUT](docs/<Capítulo 11.1 – Entendendo o Método HTTP PUT.md>)**
 
 ------
 
+⬅️ [Capítulo 10.2 – POST Lógica e Organização do Pensamento](<Capítulo 10.2 – POST Lógica e Organização do Pensamento.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 11.1 – Entendendo o Método HTTP PUT ➡️](<Capítulo 11.1 – Entendendo o Método HTTP PUT.md>)

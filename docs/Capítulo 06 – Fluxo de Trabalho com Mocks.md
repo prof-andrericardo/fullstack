@@ -138,11 +138,21 @@ Os mocks são temporários. Eles ajudam no desenvolvimento e nos testes iniciais
 
 ---
 
-## 📚 6.9 – Próximo Capítulo
+## 📚 6.9 Referências Complementares
 
-➡️ Agora que compreendemos como os dados percorrem o backend, vamos implementar as **rotas REST completas** com base nesses dados simulados.
-
-Continue para: **[Capítulo 7 – Conceitos Fundamentais de HTTP](./Capítulo 7 – Conceitos Fundamentais de HTTP.md)**
+- [O que são dados mockados – Origamid](https://www.origamid.com/slide/trabalhando-com-api/)
+- [Testes com dados simulados (mock) – Alura](https://www.alura.com.br/artigos/o-que-e-mock)
+- [Como usar dados falsos em APIs REST para testes – Dev.to](https://dev.to/vitorjsls/mock-fakerjs-como-gerar-dados-falsos-para-testar-sua-api-3o5g)
+- [Uso de mocks em APIs Express – YouTube/Programação Dinâmica](https://www.youtube.com/watch?v=ScDJ6eM7C_c)
 
 ---
 
+## 📚 Próximo Capítulo
+
+➡️ Agora que compreendemos como os dados percorrem o backend, vamos implementar as **rotas REST completas** com base nesses dados simulados.
+
+Continue para: **[Capítulo 7 – Conceitos Fundamentais de HTTP](docs/<Capítulo 7 – Conceitos Fundamentais de HTTP.md>)**
+
+---
+
+⬅️ [Capítulo 05 – Configurar o `app.js`](<Capítulo 05 – Configurar o `app.js`.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 07 – Conceitos Fundamentais de HTTP ➡️](<Capítulo 07 – Conceitos Fundamentais de HTTP.md>)

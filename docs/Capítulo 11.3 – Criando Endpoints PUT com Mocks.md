@@ -1,4 +1,4 @@
-# ✏️ Capítulo 11.2 – Criando Endpoints PUT com Mocks
+# ✏️ Capítulo 11.3 – Criando Endpoints PUT com Mocks
 
 > 🎯 **Objetivo**: Criar endpoints do tipo `PUT` para atualizar dados de usuários e tarefas no backend utilizando arrays mockados. Este capítulo aplica os conceitos estudados no Capítulo 11.1 de maneira prática e funcional.
 >
@@ -6,7 +6,7 @@
 
 ---
 
-## 🔧 11.2.1 – Pré-requisitos
+## 🔧 11.3.1 – Pré-requisitos
 
 Certifique-se de que os arquivos estão corretamente organizados:
 
@@ -24,7 +24,7 @@ backend/
 
 ------
 
-## 👤 11.2.2 – Endpoint: `PUT /usuarios/:id`
+## 👤 11.3.2 – Endpoint: `PUT /usuarios/:id`
 
 Atualiza os dados de um usuário com base no `id`.
 
@@ -96,7 +96,7 @@ router.put('/usuarios/:id', (req, res) => {
 
 ------
 
-## 📋 11.2.3 – Endpoint: `PUT /tarefas/:id`
+## 📋 11.3.3 – Endpoint: `PUT /tarefas/:id`
 
 Atualiza os dados de uma tarefa. Também verifica se o `usuario_id` enviado (caso alterado) é válido.
 
@@ -163,7 +163,7 @@ router.put('/tarefas/:id', (req, res) => {
 
 ------
 
-## ⚠️ 11.2.4 – Casos de erro para testar
+## ⚠️ 11.3.4 – Casos de erro para testar
 
 | Situação                           | Status esperado                                 | Mensagem de erro                 |
 | ---------------------------------- | ----------------------------------------------- | -------------------------------- |
@@ -173,7 +173,7 @@ router.put('/tarefas/:id', (req, res) => {
 
 ------
 
-## 📘 11.2.5 – Boas práticas aplicadas
+## 📘 11.3.5 – Boas práticas aplicadas
 
 | Boas práticas                         | Benefício                                      |
 | ------------------------------------- | ---------------------------------------------- |
@@ -184,7 +184,7 @@ router.put('/tarefas/:id', (req, res) => {
 
 ------
 
-## 🧠 11.2.6 – Atividade Prática
+## 🧠 11.3.6 – Atividade Prática
 
 > **Objetivo**: Consolidar a criação de endpoints de atualização, testando diferentes cenários e identificando erros e boas práticas.
 
@@ -200,14 +200,24 @@ router.put('/tarefas/:id', (req, res) => {
    - Tente atualizar um `id` que não existe
 4. Anote os **status HTTP** e as **mensagens de resposta**
 
-------
+---
 
-## 📚 11.2.7 – Próximo Capítulo
+## 📚 11.3.7 Referências Complementares
+
+- [Atualizando objetos com Express – YouTube (Programação Dinâmica)](https://www.youtube.com/watch?v=LUvUBqurjD4)
+- [Uso avançado de spread operator em atualizações – MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+- [Exemplo de PUT com validação de dados – Alura](https://cursos.alura.com.br/forum/topico-validacao-de-put-e-delete-156225)
+- [Guia prático: Atualização em mocks para testes – Dev.to](https://dev.to/romulosilvalima/utilizando-mocks-em-testes-4j4d)
+
+---
+
+## 📚 Próximo Capítulo
 
 Chegamos à etapa final do CRUD!
  Agora vamos aprender a **remover dados da API** com segurança e precisão utilizando o método `DELETE`.
 
-➡️ Continue para: **[Capítulo 12.1 – Entendendo o Método DELETE](https://chatgpt.com/g/g-p-67e5b2a26c7c81918301ede108f78b6a-backend-nodejs/c/cap12-1-delete.md)**
+➡️ Continue para: **[Capítulo 12.1 – Entendendo o Método DELETE](docs/<Capítulo 12.1 – Entendendo o Método HTTP DELETE.md>)**
 
 ------
 
+⬅️ [Capítulo 11.2 – PUT Lógica e Organização do Pensamento](<Capítulo 11.2 – PUT Lógica e Organização do Pensamento.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 12.1 – Entendendo o Método HTTP DELETE ➡️](<Capítulo 12.1 – Entendendo o Método HTTP DELETE.md>)

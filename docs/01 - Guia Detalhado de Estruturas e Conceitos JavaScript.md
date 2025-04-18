@@ -490,7 +490,7 @@ const busca = req.query.nome?.trim().toLowerCase();
 
 ------
 
-## 🧠 Conclusão
+## ✅ Observação
 
 Strings são o tipo de dado **mais usado em APIs**.
  Saber manipulá-las corretamente permite que o backend:
@@ -504,7 +504,7 @@ Strings são o tipo de dado **mais usado em APIs**.
 
 ---
 
-## ✅ Conclusão
+## 🧠 Conclusão
 
 Esses conceitos de JavaScript são os pilares do desenvolvimento backend com Express.  
 Ao dominá-los, o aluno ganha segurança para entender, adaptar e escrever seus próprios códigos.
@@ -513,3 +513,16 @@ Ao dominá-los, o aluno ganha segurança para entender, adaptar e escrever seus 
 
 ---
 
+---
+
+## 📚 Referências Complementares
+
+- [Documentação oficial do JavaScript (MDN – em português)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Curso completo de JavaScript para iniciantes – Curso em Vídeo (YouTube)](https://www.youtube.com/playlist?list=PLHz_AreHm4dlFXCbtwTZ2hjQoaVg05D0H)
+- [Conceitos fundamentais de objetos e arrays – Alura](https://www.alura.com.br/artigos/javascript-objetos-arrays)
+- [Trabalhando com strings, datas e operadores – Dev.to](https://dev.to/rodrigokamada/javascript-trabalhando-com-strings-datas-e-operadores-30m7)
+- [Spread, desestruturação e funções modernas em JS – Origamid](https://www.origamid.com/slide/javascript-avancado-es6/)
+
+---
+
+[🏠 Voltar à Home](<README.md>) | [02- ➡️](<docs/<>)

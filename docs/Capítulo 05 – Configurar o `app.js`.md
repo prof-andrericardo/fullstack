@@ -160,13 +160,23 @@ app.use((err, req, res, next) => {
    - Implemente o tratamento global de erros
 3. Teste a rota no navegador ou no Thunder Client
 
-------
+---
 
-## 📚 5.11 – Próximo Capítulo
+## 📚 5.11 Referências Complementares
+
+- [Documentação do Express: `app.use()`](https://expressjs.com/pt-br/api.html#app.use)
+- [Entendendo middlewares no Express – Will Dev (YouTube)](https://www.youtube.com/watch?v=lY6icfhap2o)
+- [Como configurar CORS – Dev.to](https://dev.to/raphaelchaula/entendendo-o-cors-de-forma-simples-1e14)
+- [Biblioteca Morgan – documentação oficial](https://www.npmjs.com/package/morgan)
+
+---
+
+## 📚 Próximo Capítulo
 
 ➡️ Agora que o `app.js` está pronto, vamos começar a trabalhar com dados simulados (mocks) e preparar o fluxo completo entre requisição → resposta.
 
-Continue para: **[Capítulo 6 – Fluxo de Trabalho e Mocks](Capítulo 6 – Fluxo de Trabalho e Mocks.md)**
+Continue para: **[Capítulo 6 – Fluxo de Trabalho e Mocks](docs/<Capítulo 6 – Fluxo de Trabalho e Mocks.md>)**
 
 ------
 
+⬅️ [Capítulo 04 – Configurar o Express](<Capítulo 04 – Configurar o Express.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 06 – Fluxo de Trabalho com Mocks ➡️](<Capítulo 06 – Fluxo de Trabalho com Mocks.md>)

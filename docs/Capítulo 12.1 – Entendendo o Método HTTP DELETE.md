@@ -135,13 +135,23 @@ sequenceDiagram
 | Cancelar uma compra antes de ser paga |          |                 |                    |
 | Tentar remover algo já excluído       |          |                 |                    |
 
-------
+---
 
-## 📚 12.1.12 – Próximo Capítulo
+## 📚 12.1.12 Referências Complementares
+
+- [Verbo DELETE explicado – Alura](https://www.alura.com.br/artigos/o-que-e-o-protocolo-http)
+- [Remoção de dados com DELETE – DevMedia](https://www.devmedia.com.br/api-rest-com-delete/29865)
+- [Método DELETE na prática – Curso em Vídeo](https://www.youtube.com/watch?v=iAKnBME5Fqo&t=1001s)
+- [Boas práticas ao excluir dados em APIs REST – Medium](https://medium.com/@ruanmartinelli/remocao-segura-de-recursos-em-apis-rest-1b7e8e0d69b3)
+
+---
+
+## 📚 Próximo Capítulo
 
 Agora que você compreende como funciona o método `DELETE`, no próximo capítulo vamos implementar a exclusão real dos registros simulados usando os mocks do nosso backend.
 
-➡️ Continue para: **[Capítulo 12.2 – Criando Endpoints DELETE com Mocks](https://chatgpt.com/g/g-p-67e5b2a26c7c81918301ede108f78b6a-backend-nodejs/c/cap12-2-criando-delete.md)**
+➡️ Continue para: **[Capítulo 12.2 – Criando Endpoints DELETE com Mocks](docs/<Capítulo 12.2 – DELETE Lógica e Organização do Pensamento.md>)**
 
 ------
 
+⬅️ [Capítulo 11.3 – Criando Endpoints PUT com Mocks](<Capítulo 11.3 – Criando Endpoints PUT com Mocks.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 12.2 – DELETE Lógica e Organização do Pensamento ➡️](<Capítulo 12.2 – DELETE Lógica e Organização do Pensamento.md>)

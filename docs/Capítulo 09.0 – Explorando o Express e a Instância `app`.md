@@ -420,11 +420,21 @@ Também entendemos como o **VSCode pode nos ajudar com sugestões inteligentes (
 
 ---
 
-## 📚 9.9 – Próximo Capítulo
+## 📚 9.9 Referências Complementares
+
+- [API de Referência do Express (pt-BR)](https://riptutorial.com/pt/node-js/topic/5067/express)
+- [Documentação oficial do Express (EN)](https://expressjs.com/en/api.html)
+- [Funções do objeto `app` no Express – Dev.to](https://dev.to/luiztools/construindo-uma-api-rest-com-nodejs-e-express-3m8h)
+- [Curso Express + Node.js – YouTube (Matheus Battisti)](https://www.youtube.com/watch?v=1hpc70_OoAg)
+
+---
+
+## 📚 Próximo Capítulo
 
 Agora que você entende a estrutura do Express e o papel da instância `app`, vamos aprofundar nosso conhecimento nos métodos HTTP, começando pelo `GET`.
 
-➡️ Continue para: **[Capítulo 9.1 – Entendendo o Método HTTP GET](./Capítulo 9.1 – Entendendo o Método HTTP GET.md)**
+➡️ Continue para: **[Capítulo 9.1 – Entendendo o Método HTTP GET](docs/<Capítulo 9.1 – Entendendo o Método HTTP GET.md>)**
 
 ------
 
+⬅️ [Capítulo 08 – Rotas e Endpoints](<Capítulo 08 – Rotas e Endpoints.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 09.1 – Entendendo o Método HTTP GET ➡️](<Capítulo 09.1 – Entendendo o Método HTTP GET.md>)
