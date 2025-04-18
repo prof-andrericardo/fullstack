@@ -146,4 +146,4 @@ O `DELETE` permite que o usuário **gerencie seu conteúdo** e remova o que não
 
 ---
 
-⬅️ [Capítulo 12.1 – Entendendo o Método HTTP DELETE](<Capítulo 12.1 – Entendendo o Método HTTP DELETE.md>) | [🏠 Voltar à Home](<README.md>) | [Capítulo 12.3 – Criando Endpoints DELETE com Mocks ➡️](<Capítulo 12.3 – Criando Endpoints DELETE com Mocks.md>)
+⬅️ [Capítulo 12.1 – Entendendo o Método HTTP DELETE](<Capítulo 12.1 – Entendendo o Método HTTP DELETE.md>) | [🏠 Voltar à Home](../<README.md>) | [Capítulo 12.3 – Criando Endpoints DELETE com Mocks ➡️](<Capítulo 12.3 – Criando Endpoints DELETE com Mocks.md>)
