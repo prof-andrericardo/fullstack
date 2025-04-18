@@ -166,4 +166,4 @@ Você poderá:
 
 ---
 
-⬅️ [ ]() | [🏠 Voltar à Home](<README.md>) | [Capítulo 02 – Hierarquia do Projeto ➡️](<Capítulo 02 – Hierarquia do Projeto.md>)
+⬅️ [ ]() | [🏠 Voltar à Home](<../README.md>) | [Capítulo 02 – Hierarquia do Projeto ➡️](<Capítulo 02 – Hierarquia do Projeto.md>)
